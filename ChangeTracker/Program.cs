@@ -197,7 +197,8 @@ ChangeTrackerContext context = new();
 
 #region Change Tracker'ın Interceptor Olarak Kullanılması
 
-
+//Context classının içinde SaveChangesAsync Metodu override edilir.
+//Context sınıfında incele.
 
 #endregion
 

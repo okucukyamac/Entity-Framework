@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Querying", "Querying\Queryi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChangeTracker", "ChangeTracker\ChangeTracker.csproj", "{16BA7383-0C8A-484C-AA57-F6784781121E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tracking", "Tracking\Tracking.csproj", "{3899853C-CA75-4C55-BB24-E68878D2DDE4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IliskiselYapilar", "IliskiselYapilar\IliskiselYapilar.csproj", "{20273195-16C7-46F4-B2B6-A686C6EDF483}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{16BA7383-0C8A-484C-AA57-F6784781121E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{16BA7383-0C8A-484C-AA57-F6784781121E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{16BA7383-0C8A-484C-AA57-F6784781121E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3899853C-CA75-4C55-BB24-E68878D2DDE4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3899853C-CA75-4C55-BB24-E68878D2DDE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3899853C-CA75-4C55-BB24-E68878D2DDE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3899853C-CA75-4C55-BB24-E68878D2DDE4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{20273195-16C7-46F4-B2B6-A686C6EDF483}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20273195-16C7-46F4-B2B6-A686C6EDF483}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20273195-16C7-46F4-B2B6-A686C6EDF483}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20273195-16C7-46F4-B2B6-A686C6EDF483}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
