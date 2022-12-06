@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tracking", "Tracking\Tracki
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IliskiselYapilar", "IliskiselYapilar\IliskiselYapilar.csproj", "{20273195-16C7-46F4-B2B6-A686C6EDF483}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "One_to_One_Relationship", "One_to_One_Relationship\One_to_One_Relationship.csproj", "{84A1FA27-B6A3-462A-8E65-9A99A377B882}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{20273195-16C7-46F4-B2B6-A686C6EDF483}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{20273195-16C7-46F4-B2B6-A686C6EDF483}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{20273195-16C7-46F4-B2B6-A686C6EDF483}.Release|Any CPU.Build.0 = Release|Any CPU
+		{84A1FA27-B6A3-462A-8E65-9A99A377B882}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84A1FA27-B6A3-462A-8E65-9A99A377B882}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84A1FA27-B6A3-462A-8E65-9A99A377B882}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84A1FA27-B6A3-462A-8E65-9A99A377B882}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -66,18 +66,19 @@ using Microsoft.EntityFrameworkCore;
 //Entity modellerindeki ilişkileri yapılandırırken daha detaylı çalışmamızı saplayan yöntemdir.
 
 #region HasOne
-
+//İlgili entity'nin ilişkisel entity'ye birebir ya da bire çok olacak şekilde ilişkisini yapılandırmaya başlayan metottur.
 #endregion
 
 #region HasMany
-
+//İlgili entity'nin ilişkisel entity'e çoka bir ya da çoka çok olacak şekilde ilişkisini yapılandırmaya başlayan metottur.
 #endregion
 
 #region WithOne
-
+//HasOne ya da HasMany'den sonra bire bir ya da çoka bir olacak şekilde ilişki yapılandırmasını tamamlayan metottur.
 #endregion
 
 #region WithMany
+//HasOne ya da HasMany'den sonra bire çok ya da çoka çok olacak şekilde ilişki yapılandırmasını tamamlayan metottur.
 
 #endregion
 
