@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33110.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Querying", "Querying\Querying.csproj", "{E5C13266-1304-4843-A686-98D90DF2ADDF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChangeTracker", "ChangeTracker\ChangeTracker.csproj", "{16BA7383-0C8A-484C-AA57-F6784781121E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E5C13266-1304-4843-A686-98D90DF2ADDF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5C13266-1304-4843-A686-98D90DF2ADDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5C13266-1304-4843-A686-98D90DF2ADDF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5C13266-1304-4843-A686-98D90DF2ADDF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{16BA7383-0C8A-484C-AA57-F6784781121E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16BA7383-0C8A-484C-AA57-F6784781121E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16BA7383-0C8A-484C-AA57-F6784781121E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16BA7383-0C8A-484C-AA57-F6784781121E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {21C167D9-3E30-490B-8114-AC3CF4E6CD70}
+	EndGlobalSection
+EndGlobal
