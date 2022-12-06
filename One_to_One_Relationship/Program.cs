@@ -51,6 +51,9 @@ Console.WriteLine("Hello, World!");
 
 #region Fluent API
 //Model'lerin (entity) veritabanında generate edilecek yapıları bu fonksiyon içerisinde konfigure edilir.
+
+//Navigation Propertyler tanımlanmalı
+//Fluent API yönteminde entity'ler arasındaki ilişki context sınıfı içerisinde OnModelCreating fonksiyonunun override edilerek metotlar aracılığıyla tasarlanması gerekmektedir. Yani tüm sorumluluk bu fonksiyon içerisindeki çalışmalardadır.
 class Calisan
 {
     public int Id { get; set; }
@@ -67,9 +70,6 @@ class CalisanAdresi
 
 #endregion
 
-#region MyRegion
-
-#endregion
 
 class ESirketDbContext :DbContext
 {
@@ -84,6 +84,8 @@ class ESirketDbContext :DbContext
     //Model'lerin (entity) veritabanında generate edilecek yapıları bu fonksiyon içerisinde konfigure edilir.
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
+        modelBuilder.Entity<CalisanAdresi>()
+            .HasKey(x => x.Id);
         modelBuilder.Entity<Calisan>()
             .HasOne(c => c.CalisanAdresi)
             .WithOne(c => c.Calisan)
